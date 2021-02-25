@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;300;400;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hammersmith+One&display=swap');
+
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: lighter;
+}
+
+body h2{
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+}
+
+button {
+    font-family: 'Hammersmith One', sans-serif;
+    font-weight: normal;
+}
+
+.bg-header {
+    background-image: url("../img/bg-header.png");
+    min-height: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+.logoCustom {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    margin-left: 14px;
+    font-size: 30pt;
+    background: linear-gradient(to right, #00e0d0, #48a4cc);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.navbarCustom {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 11pt;
+}
+
+.navbarCustomItem {
+    color: white;
+    display: block;
+    margin: 12px 0;
+}
+
+.navbarCustomItem:hover {
+    color: #00e0d0;
+    text-decoration: none;
+}
+
+@media (min-width: 992px) {
+    .navbarCustomItem {
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+}
+
+
+.headingTwoCustom {
+    font-size: 30pt;
+    font-weight: bold;
+}
+.splash {
+    padding: 200px 0;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    line-height: 24pt;
+}
+
+.splash hr {
+    margin-top: 27px;
+    margin-bottom: 27px;
+    border: 0;
+    border-top: 1px solid #00e0d0;
+    width: 50px;
+}
+
+.splash button {
+    font-family: 'Hammersmith One', sans-serif;
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-color: transparent;
+    border: 1px solid #00e0d0;
+    color: #00e0d0;
+    padding: 10px 20px;
+    font-size: 14pt;
+    border-radius: 3px;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+.splash button:hover {
+    color: white;
+    background-color: #00e0d0;
+}
+.splash p {
+    font-size: 14pt;
+}
+
+@media (max-width: 992px) {
+    .splash {
+        padding: 30px 0;
+    }
+    .headingTwoCustom {
+        font-size: 20pt;
+    }
+}
