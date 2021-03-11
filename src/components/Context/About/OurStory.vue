@@ -1,11 +1,11 @@
 <template>
   <b-container class="about inserts">
     <b-row>
-      <b-col cols="12" lg="5" class="text-center">
+      <b-col cols="12" lg="5" class="text-center pb-5 pb-lg-0">
         <img class="about__image" :src="require('@/assets/img/about.png')" alt="about our story">
       </b-col>
       <b-col cols="12" lg="7" >
-        <h2 class="heading heading-page about__heading">
+        <h2 class="heading heading-page about__heading-margin">
           OUR STORY
         </h2>
         <p class="text">

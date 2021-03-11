@@ -1,6 +1,6 @@
 <template>
   <div class="header">
-    <Header__navbar/>
+    <Navbar/>
     <b-container class="header__content text-center text-white">
       <b-row class="justify-content-center">
         <b-col cols="10" class="p-0 px-lg-3">
@@ -17,12 +17,12 @@
 </template>
 
 <script>
-import Header__navbar from "@/components/Header/Header__navbar";
+import Navbar from "@/components/Header/Navbar";
 
 export default {
   name: 'Header',
   components: {
-    Header__navbar
+    Navbar
   }
 }
 </script>

@@ -8,6 +8,16 @@ body {
     font-weight: lighter;
 }
 
+.cursor-pointer {
+    cursor: pointer;
+}
+
+.icon {
+    width: 16px;
+    height: 16px;
+    float: left;
+    background: url("../img/sprite.png") no-repeat;
+}
 
 .button {
     font-family: 'Hammersmith One', sans-serif;
@@ -34,6 +44,12 @@ body {
 
 .inserts {
     padding: 70px 0;
+}
+
+@media (max-width: 992px) {
+    .inserts {
+        padding: 40px 0;
+    }
 }
 
 .heading {
@@ -127,11 +143,46 @@ body {
     height: 290px;
 }
 
+@media (max-width: 992px) {
+    .about__image {
+        height: 240px;
+
+    }
+}
+
 .heading-page {
     line-height: 0.6;
     font-size: 22pt;
 }
 
-.about__heading {
+.about__heading-margin {
     margin-bottom: 28px;
+}
+
+.video {
+    height: auto;
+    background-image: url("../img/bg-video.png");
+    min-height: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.inserts-video {
+    padding: 202px 0;
+}
+
+.video-icon {
+    height: 100px;
+    width: 100px;
+}
+
+.video-font {
+    font-family: Roboto, sans-serif;
+    font-weight: 900;
+    font-size: 16pt;
+}
+
+.video-icon-margin {
+    margin-bottom: 34px;
 }
