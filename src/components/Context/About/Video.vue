@@ -5,7 +5,7 @@
         @click="$bvModal.show('video-modal')"
     >
       <b-col cols="12" class="justify-content-center d-flex video-icon-margin">
-        <div class="icon video-icon"></div>
+        <div class="video-icon"></div>
       </b-col>
       <b-col cols="12">
         <h2 class="text-uppercase video-font">
