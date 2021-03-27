@@ -9,6 +9,7 @@
       <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
 
       <b-collapse id="nav-collapse" is-nav>
+<!--        todo: использовать v-for для отображения -->
         <b-navbar-nav class="header__navbar ml-auto text-uppercase">
           <li class="nav-item">
             <a href="#" class="header__link header__link--active">home</a>

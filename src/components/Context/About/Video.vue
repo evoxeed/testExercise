@@ -1,5 +1,5 @@
 <template>
-  <b-container fluid class="video inserts-video text-center text-white">
+  <b-container fluid class="video bg inserts-video text-center text-white">
     <b-row
         class="justify-content-center cursor-pointer"
         @click="$bvModal.show('video-modal')"

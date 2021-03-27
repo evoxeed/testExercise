@@ -5,9 +5,7 @@
         <img class="about__image" :src="require('@/assets/img/about.png')" alt="about our story">
       </b-col>
       <b-col cols="12" lg="7" >
-        <h2 class="about__heading-margin heading heading-page text-uppercase">
-          our story
-        </h2>
+        <h2 class="about__heading-margin heading heading-page text-uppercase">our story</h2>
         <p class="text about__text">
           This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin,
           lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet

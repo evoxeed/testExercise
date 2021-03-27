@@ -5,7 +5,7 @@ Vue.use(Vuex)
 
 export default new Vuex.Store({
     state: {
-        expertise__item: [
+        expertise__itemList: [
             {
                 "icon": "desktop-icon",
                 "heading": "web design & development",
@@ -46,11 +46,38 @@ export default new Vuex.Store({
             }
 
         ],
+
+        team__itemList: [
+            {
+                "img": require('@/assets/img/teamPhoto.png'),
+                "heading": "semf ucuk",
+                "subHeading": "ceo & founder"
+            },
+            {
+                "img": require('@/assets/img/teamPhoto.png'),
+                "heading": "dik adalin",
+                "subHeading": "engineering"
+            },
+            {
+                "img": require('@/assets/img/teamPhoto.png'),
+                "heading": "jeng kol",
+                "subHeading": "designer"
+            },
+            {
+                "img": require('@/assets/img/teamPhoto.png'),
+                "heading": "pet romak",
+                "subHeading": "marketing"
+            },
+        ],
     },
     getters: {
-        getExpertiseItem(state) {
-            return state.expertise__item
+        getExpertiseItems(state) {
+            return state.expertise__itemList
         },
+
+        getTeamItems(state) {
+            return state.team__itemList
+        }
     },
     mutations: {},
     actions: {},
